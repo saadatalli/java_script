@@ -1,0 +1,53 @@
+body{
+    background-image: url(71030300-group-of-white-dice-over-white-background-with-word-written-guess.jpg);
+}
+h1 {
+    text-align: center;
+    border: 5px solid #0c0036;
+background-color: #0c0036;
+color: white;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0px auto;
+  }
+  
+  .box {
+    height: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #0c0036;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 45px;
+    margin: 5px;
+  }
+  .box:hover {
+    background-color: #0c0036;
+    color: white;
+  }
+
+  .info_box:hover {
+    background-color: #0c0036;
+    color: white;
+  }
+  
+  .info_box {
+    /* flex-grow: 4; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #0c0036;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  .msg {
+    text-align: center;
+  }
