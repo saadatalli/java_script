@@ -22,6 +22,8 @@
   var minutes = document.getElementById("minutes")
   var seconds = document.getElementById("seconds")
   var ampm = document.getElementById("ampm")
+  var coll1 = document.getElementById("coll1")
+  var coll2 = document.getElementById("coll2")
 
   
   setInterval(function(){
@@ -39,4 +41,7 @@
       minutes.innerText = currentDate.getMinutes().toString().padStart(2,'0');
       seconds.innerText = currentDate.getSeconds().toString().padStart(2,'0');
       ampm.innerText =period;
+      coll1.innerText=":";
+      coll2.innerText=":";
+
   }, 1000);
