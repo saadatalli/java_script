@@ -1,0 +1,11 @@
+#start_btn{
+    background-color: green;
+    color: azure;
+    font-size: large;
+
+}
+#stop_btn{
+    background-color: rgb(128, 0, 0);
+    color: azure;
+    font-size: large;
+}
