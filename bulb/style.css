@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+h1{
+    color: orange;
+    
+text-align: center;    
+}
+#btn{
+    display: flex;
+    justify-content: center;
+} 
+#on{
+    background-color: green;
+    font-size: medium;
+    font-weight: bolder;
+    padding: 2px 15px;
+    margin: 2px 5px;
+    cursor: pointer;
+}
+
+#pic{
+    display: block;
+    margin: 0px auto;
+}
+
+#off{
+    background-color: red;
+    font-size: medium;
+    padding: 2px 15px;
+    font-weight: bolder;
+    margin: 2px 5px;
+    cursor: pointer;
+    
+}
