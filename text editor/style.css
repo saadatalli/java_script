@@ -16,11 +16,16 @@ h1{
     color: #faebd7;
 }
 .texteditor{
-    border: 3px solid #faebd7;
-    ;
+    border: 3px solid #faebd7;;
     background-image: url("back.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: antiquewhite;
-    font-size: larger;
+    font-size: larger; 
+    border-width: thick; 
+
 }
+::placeholder {
+    color: antiquewhite;
+    opacity: 1; 
+  }

@@ -33,3 +33,6 @@ function reset(){
     document.getElementById("textarea1").style.textDecoration="none";
     document.getElementById("textarea1").value = " "; 
 }
+
+    
+    
