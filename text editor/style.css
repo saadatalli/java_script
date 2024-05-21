@@ -1,0 +1,26 @@
+body{
+    margin: 5px 35%;
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    padding: 2px 5px;
+    margin: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: antiquewhite;
+}
+
+h1{
+    color: #faebd7;
+}
+.texteditor{
+    border: 3px solid #faebd7;
+    ;
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: antiquewhite;
+    font-size: larger;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>TEXT EDITOR</h1>
+    <div>
+    <textarea id="textarea1" 
+    class="texteditor"
+    rows="15" 
+    cols="50" 
+    placeholder="Enter text here "> 
+</textarea> 
+</div>
+
+<div>
+    <button type="button" onclick="bold()" style="font-weight: 900;"> BOLD</button>
+    <button type="button" onclick="italic()"  style="font-style: italic;"> italic</button>
+    <button type="button" onclick="capital()"> CAPITALIZE</button>
+    <button type="button" onclick="lower()"> lower case</button>
+    <button type="button" onclick="underline()" style="text-decoration: underline;"> UNDERLINE</button>
+
+    <label for="selectColor" style="   font-weight: bold;
+    color: antiquewhite;">
+        Select a color:
+    </label>
+    <select id="selectColor" onchange="changeColor()" style="  font-weight: bold;
+    color: black;">
+        <option value="#ffff00">yellow</option>
+        <option value="crimson">Red</option>
+        <option value="green">Green</option>
+        <option value="#0984e3">Blue</option>
+        <option value="cyan">Cyan</option>
+        <option value="#00b894">Mint Leaf</option>
+        <option value="#e84393">Pink</option>
+    </select>
+
+    <button type="button" onclick="reset()" style="background-color: red;"> RESET</button>
+
+
+</div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
