@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance register
+
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div  class="main">
+        <div style="background-color: green;"  id="totalPresent"  class="totals"> PRESENT :0</div>
+        <div style="background-color: red;" id="totalAbsent"  class="totals">ABSENT :0</div>
+        <div style="background-color: rgb(197, 197, 85);" id="totalLeave"  class="totals">LEAVE :0</div>
+    </div>
+
+    <div >
+    <input class="inpts" type="text" name="" placeholder="Name" id="name">
+    <input class="inpts" type="text" name="" placeholder="FatherName" id="fatherName">
+    <input class="inpts" type="number" name="" placeholder="Rollno" id="rollno">
+    <input class="inpts" type="number" name="" placeholder="age" id="age">
+    </div>
+
+<div style="margin: 10px;">
+    <button id="" onclick="addUser()">Add User</button>
+</div>
+
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>FatherName</th>
+                <th>Roll No</th>
+                <th>age</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody id="userTable"></tbody>
+    </table>
+</div>
+    
+    <script src="app.js"> </script>
+</body>
+</html>
