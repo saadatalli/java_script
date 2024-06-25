@@ -1,0 +1,57 @@
+/* styles.css */
+body {
+    background-image: url("back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #f7fbff;
+  }
+  
+  #locations_dropdown {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #weather_info {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  #weather_info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #weather_info li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  #weather_info li:last-child {
+    border-bottom: none;
+  }
+  
+  #weather_info ul li:first-child {
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(80, 79, 79);
+  }
+  

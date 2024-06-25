@@ -118,7 +118,7 @@ var obj = {
     console.log("ele parentr=>", ele.parentElement);
   
     var index = ele.parentElement.id;
-    fruits.splice(index, 1);  // Remove the item from the fruits array
+    fruits.splice(index, 1); 
     console.log("fruits-->", fruits);
     list.innerHTML = "";
     fruits.forEach(function (data, ind) {
